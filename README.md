@@ -18,7 +18,7 @@ Integration with Travic CI for continuous integration.
 [![Build Status](https://travis-ci.org/haighis/product-service.svg?branch=master)](https://travis-ci.org/haighis/product-service)
 
 ## Usage
-See the wiki for REST operations. What can I do with Product Service? You can use it to provide a list of Categories and Products that are accessible via REST GET with JSON content.
+What can I do with Product Service? You can use it to provide a list of Categories and Products that are accessible via REST GET with JSON content.
 
 ## Running
 
@@ -38,8 +38,17 @@ In memory tests with Mockito.
 
 To view pass/fail for unit tests there is a report located at 'build/reports/tests/index.html'
 
+Test Summary
+![Test Summary](/media/TestSummary.jpg?raw=true "Test Summary")
+
 ## Test Code Coverage
 
 ./gradlew test jacocoTestReport
 
 Jacoco Code Coverage Report is located at 'build/reports/coverage/index.html'
+
+Rest API - Product Resource Code Coverage
+![Product Resource](/media/productresource.jpg?raw=true "Rest API - Product Resource Code Coverage")
+
+Rest API - Category Resource Code Coverage
+![Category Resource](/media/restcodecoverage.jpg?raw=true "Rest API - Category Resource Code Coverage")
