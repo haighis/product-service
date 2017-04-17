@@ -29,11 +29,13 @@ import java.util.stream.Collectors;
 
 /**
  * REST controller for managing Product.
+ * Not used in Shop UI. Used for add/update/delete product. 
+ * TODO refactor and move Add/Update/Delete Verbs to a Product Admin Resource/Service. 
+ * In theory these operations would be password protected so they should be in a separate admin service.
  * Contains Verbs on Product Resource for:
  * - POST - create a product. Used to enter new products into the system.
  * - PUT - update a product. Used to update an existing product.
- * - GET - gets products for a category id. 
- * - GET with Id - gets a single product
+  * - GET with Id - gets a single product
  * - DELETE - delete a product.
  */
 @RestController
