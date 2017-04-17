@@ -28,8 +28,6 @@ What can I do with Product Service? You can use it to provide a list of Categori
 
 With Netflix Eureka + Swagger a self documenting API will demonstrate API Verbs available 
 
-See the wiki for REST operations.
-
 ## Tests
 
 In memory tests with Mockito.  
