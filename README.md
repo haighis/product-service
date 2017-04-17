@@ -18,18 +18,19 @@ Integration with Travic CI for continuous integration.
 [![Build Status](https://travis-ci.org/haighis/product-service.svg?branch=master)](https://travis-ci.org/haighis/product-service)
 
 ## Usage
-What can I do with Product Service? You can use it to provide a list of Categories and Products that are accessible via REST GET with JSON content.
+See the [wiki](https://github.com/haighis/product-service/wiki) for REST operations. What can I do with Product Service? You can use it to provide a list of Categories and Products that are accessible via REST GET with JSON content.
 
 ## Running
 
 ./gradlew bootRun
 
-This Microservice can benefit from Netflix Eureka, but does not require Netflix Eureka in order to run. Run each Microservice Product Service, Shopping Cart Service and Order Service. Then run Shop UI and open your browser to 
-http://localhost:2005
+This Microservice can benefit from Netflix Eureka, but does not require Netflix Eureka in order to run. Run each Microservice Product Service, Shopping Cart Service and Order Service. Then run Shop UI and open your browser to http://localhost:2005
 
 ## Viewing the API
 
-With Netflix Eureka + Swagger a self documenting API will demonstrate API Verbs available 
+With Netflix Eureka + Swagger a self documenting API will demonstrate API Verbs available. 
+
+See the [wiki](https://github.com/haighis/product-service/wiki) for REST operations.
 
 ## Tests
 
