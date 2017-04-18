@@ -89,7 +89,7 @@ public class ProductResourceIntTest {
     @PostConstruct
     public void setup() {
         MockitoAnnotations.initMocks(this);
-        ProductResource productResource = new ProductResource();
+        ProductAdminResource productResource = new ProductAdminResource();
         
         ReflectionTestUtils.setField(productResource, "productService", productService);
         ReflectionTestUtils.setField(productResource, "productMapper", productMapper);
