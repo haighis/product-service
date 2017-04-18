@@ -33,6 +33,8 @@ Database used is PostgreSQL. Using a default PostgreSQL setup on windows/macosx 
 2. Create a user 'jhaigh' and password 'jhaigh' that has priveledges to cart and commerce database in PostgreSql.
 3. run ```./gradlew bootRun``` or ```gradlew.bat bootRun``` which will create the database schema on first run.
 
+See the [Database Default Data](https://github.com/haighis/product-service/wiki/Database-Default-Data) wiki entry for default data script.
+
 ## Consuming the API
 
 While not required a Netflix Eureka + Swagger combo provides a self documenting API and Netflix Eureka will auto discover Product Service, Order Service and Shopping Cart Services. Running Swagger UI will demonstrate API Verbs available. 

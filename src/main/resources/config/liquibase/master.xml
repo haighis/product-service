@@ -7,4 +7,7 @@
     <include file="classpath:config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
     <include file="classpath:config/liquibase/changelog/20170408234021_added_entity_Category.xml" relativeToChangelogFile="false"/>
     <include file="classpath:config/liquibase/changelog/20170408121934_added_entity_Product.xml" relativeToChangelogFile="false"/>   
+    <!-- <include file="classpath:config/liquibase/changelog/defaultdata.xml" relativeToChangelogFile="false"/>   -->
+
 </databaseChangeLog>
+

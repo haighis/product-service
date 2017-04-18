@@ -16,7 +16,7 @@
     <!--
         Added the entity Category.
     -->
-    <changeSet id="20170408234021-1" author="jhipster">
+    <changeSet id="20170408234021-1" author="jhaigh">
         <createTable tableName="category">
             <column name="id" type="bigint" autoIncrement="${autoIncrement}">
                 <constraints primaryKey="true" nullable="false"/>
