@@ -56,8 +56,5 @@ Test Summary
 
 Jacoco Code Coverage Report is located at 'build/reports/coverage/index.html'
 
-Rest API - Product Resource Code Coverage
-![Product Resource](/media/ProductResource.jpg?raw=true "Rest API - Product Resource Code Coverage")
-
 Rest API - Category Resource Code Coverage
 ![Category Resource](/media/CategoryResource.jpg?raw=true "Rest API - Category Resource Code Coverage")

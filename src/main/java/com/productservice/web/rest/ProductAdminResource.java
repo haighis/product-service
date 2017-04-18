@@ -26,19 +26,14 @@ import java.util.Optional;
 /**
  * REST controller for managing Product.
  * Not used in Shop UI. Used for add/update/delete product. 
- * TODO refactor and move Add/Update/Delete Verbs to a Product Admin Resource/Service. 
- * In theory these operations would be password protected so they should be in a separate admin service.
- * Contains Verbs on Product Resource for:
- * - POST - create a product. Used to enter new products into the system.
- * - PUT - update a product. Used to update an existing product.
-  * - GET with Id - gets a single product
- * - DELETE - delete a product.
+ * See CategoryResource for Products listing by category.
+ * This requires security such as being behind authentication.
  */
 @RestController
 @RequestMapping("/api")
-public class ProductResource {
+public class ProductAdminResource {
 
-    private final Logger log = LoggerFactory.getLogger(ProductResource.class);
+    private final Logger log = LoggerFactory.getLogger(ProductAdminResource.class);
         
     @Inject
     private ProductService productService;
